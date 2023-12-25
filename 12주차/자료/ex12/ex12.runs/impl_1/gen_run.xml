@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a75tfgg484-1" LaunchTime="1605599819">
+  <File Type="BITSTR-BMM" Name="tfto_decade_counter_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="tfto_decade_counter_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="tfto_decade_counter_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="tfto_decade_counter_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="tfto_decade_counter.tcl"/>
+  <File Type="OPT-TIMING" Name="tfto_decade_counter_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="tfto_decade_counter_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="tfto_decade_counter_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="tfto_decade_counter_reports.tcl"/>
+  <File Type="OPT-DRC" Name="tfto_decade_counter_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="tfto_decade_counter.hwdef"/>
+  <File Type="PWROPT-DCP" Name="tfto_decade_counter_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="tfto_decade_counter_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="tfto_decade_counter_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="tfto_decade_counter_placed.dcp"/>
+  <File Type="PLACE-IO" Name="tfto_decade_counter_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="tfto_decade_counter_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="tfto_decade_counter_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="tfto_decade_counter_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="tfto_decade_counter_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="tfto_decade_counter_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="tfto_decade_counter_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="tfto_decade_counter_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="tfto_decade_counter_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="tfto_decade_counter.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="tfto_decade_counter_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="tfto_decade_counter_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="tfto_decade_counter_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="tfto_decade_counter.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="tfto_decade_counter_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="tfto_decade_counter_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="tfto_decade_counter_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="tfto_decade_counter_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="tfto_decade_counter_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="tfto_decade_counter_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="tfto_decade_counter_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="tfto_decade_counter.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="tfto_decade_counter_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="tfto_decade_counter_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="tfto_decade_counter_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="tfto_decade_counter_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="tfto_decade_counter_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="tfto_decade_counter_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="tfto_decade_counter_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="tfto_decade_counter_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="tfto_decade_counter_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="tfto_decade_counter_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="tfto_decade_counter_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="tfto_decade_counter_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="tfto_decade_counter_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="tfto_decade_counter_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="tfto_decade_counter_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="tfto_decade_counter_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="tfto_decade_counter_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="tfto_decade_counter_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="tfto_decade_counter_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="tfto_decade_counter_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="tfto_decade_counter_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="tfto_decade_counter.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="tfto_decade_counter_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="tfto_decade_counter.rbt"/>
+  <File Type="BITSTR-NKY" Name="tfto_decade_counter.nky"/>
+  <File Type="PDI-FILE" Name="tfto_decade_counter.pdi"/>
+  <File Type="RCFI_FILE" Name="tfto_decade_counter.rcfi"/>
+  <File Type="CFI_FILE" Name="tfto_decade_counter.cfi"/>
+  <File Type="RNPI_FILE" Name="tfto_decade_counter.rnpi"/>
+  <File Type="NPI_FILE" Name="tfto_decade_counter.npi"/>
+  <File Type="RBD_FILE" Name="tfto_decade_counter.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="tfto_decade_counter.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="tfto_decade_counter.sysdef"/>
+  <File Type="BG-BGN" Name="tfto_decade_counter.bgn"/>
+  <File Type="BG-DRC" Name="tfto_decade_counter.drc"/>
+  <File Type="RDI-RDI" Name="tfto_decade_counter.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/two_count.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/tfto.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/four_counter.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="tfto_decade_counter"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/two_count_c.xdc">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/new/four_count_c.xdc">
+      <FileInfo>
+        <Attr Name="UserDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/new/tfto_c.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/tfto_c.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

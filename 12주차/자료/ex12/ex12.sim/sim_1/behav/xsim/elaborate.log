@@ -1,0 +1,16 @@
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto bc79a41f46384007bbcfde41e509975e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot binary_counter_tb_behav xil_defaultlib.binary_counter_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'clk' is not permitted [C:/Users/D-105/ex12/ex12.srcs/sim_1/new/two_count_tb.v:8]
+ERROR: [VRFC 10-3595] non-net variable cannot be connected to inout port 'clk' [C:/Users/D-105/ex12/ex12.srcs/sim_1/new/two_count_tb.v:8]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'j' is not permitted [C:/Users/D-105/ex12/ex12.srcs/sim_1/new/two_count_tb.v:9]
+ERROR: [VRFC 10-3595] non-net variable cannot be connected to inout port 'j' [C:/Users/D-105/ex12/ex12.srcs/sim_1/new/two_count_tb.v:9]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'k' is not permitted [C:/Users/D-105/ex12/ex12.srcs/sim_1/new/two_count_tb.v:10]
+ERROR: [VRFC 10-3595] non-net variable cannot be connected to inout port 'k' [C:/Users/D-105/ex12/ex12.srcs/sim_1/new/two_count_tb.v:10]
+ERROR: [VRFC 10-3236] concurrent assignment to a non-net 'reset' is not permitted [C:/Users/D-105/ex12/ex12.srcs/sim_1/new/two_count_tb.v:11]
+ERROR: [VRFC 10-3595] non-net variable cannot be connected to inout port 'reset' [C:/Users/D-105/ex12/ex12.srcs/sim_1/new/two_count_tb.v:11]
+ERROR: [VRFC 10-3525] mixed concurrent and procedural assignment on 'clk' [C:/Users/D-105/ex12/ex12.srcs/sim_1/new/two_count_tb.v:4]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

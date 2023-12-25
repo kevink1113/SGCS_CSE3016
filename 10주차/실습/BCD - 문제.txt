@@ -1,0 +1,36 @@
+`timescale 1ns / 1ps
+
+module adder4bit(A, B, Ci, S, Co);
+
+
+
+
+
+
+
+
+
+endmodule
+
+module BCD(A, B, S, C);
+
+input [3:0] A, B;
+output [3:0] S; output C;
+
+wire [3:0] B2, A2; wire Cout;
+
+adder4bit 
+
+assign C = 
+
+adder4bit 
+
+endmodule
+
+module BCDinterface(B, C, S);
+input [3:0] B; output C;
+output [3:0] S;
+reg [3:0] A;
+initial A = 4'd5;
+BCD(A, B, S, C);
+endmodule

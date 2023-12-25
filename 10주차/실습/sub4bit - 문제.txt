@@ -1,0 +1,37 @@
+`timescale 1ns / 1ps
+
+module sub1bit(A, B, bi, d, bo);
+
+input A, B, bi;
+output d, bo;
+assign d = 
+assign bo = 
+
+endmodule
+
+module sub4bit(A, B, bi, d, bo);
+
+input [3:0] A, B; input bi;
+output [3:0] d; output bo;
+
+wire [3:0] A, B, d; wire bi, bo;
+wire [2:0] bout;
+
+sub1bit 
+sub1bit 
+sub1bit 
+sub1bit 
+
+endmodule
+
+module sub4bitInterface(A, bi, d, bo);
+
+input [3:0] A; input bi; 
+output [3:0] d; output bo;
+
+wire [3:0] A, d;
+wire bi, bo;
+
+
+
+endmodule

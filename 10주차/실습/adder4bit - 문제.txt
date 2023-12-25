@@ -1,0 +1,36 @@
+`timescale 1ns / 1ps
+
+module adder1bit(A, B, Ci, S, Co);
+
+input A, B, Ci;
+output S, Co;
+assign
+assign 
+
+endmodule
+
+module adder4bit(A, B, Ci, S, Co);
+input [3:0] A, B; input Ci;
+output [3:0] S; output Co;
+
+wire [3:0] A, B, S; wire Ci, Co;
+wire [2:0] C;
+
+adder1bit 
+adder1bit 
+adder1bit 
+adder1bit 
+
+endmodule
+
+module adderInterface(A, Ci, S, Co);
+
+input [3:0] A; input Ci; 
+output [3:0] S; output Co;
+
+wire [3:0] A, S;
+wire Ci, Co;
+
+
+
+endmodule
